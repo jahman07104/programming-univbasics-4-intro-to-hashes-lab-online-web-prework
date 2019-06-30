@@ -26,7 +26,7 @@ end
 def update_counting_hash(hash, key)
 hash[key] = 1
 {total: 5}[age: 1]
-{'number'=>1}
+{'hello'=>1}
 end
 # # 
 #     if key is not present, returns a hash with the provided key assigned to thevalue of 1 (FAILED - 1)
