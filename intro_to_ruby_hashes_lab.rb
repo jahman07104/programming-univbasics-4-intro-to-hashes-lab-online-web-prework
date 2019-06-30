@@ -23,6 +23,6 @@ def read_from_hash(hash, key)
 #  expect(read_from_hash({name: 'Steve'}, :name)).to eq('Steve')
 end
 
-# def update_counting_hash(hash, key)
-#   [:apples => 4]+1
-# end
+def update_counting_hash(hash, key)
+  [:apples => 4]+1
+end
