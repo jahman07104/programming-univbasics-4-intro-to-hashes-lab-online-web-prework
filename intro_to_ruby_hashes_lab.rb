@@ -26,7 +26,7 @@ end
 def update_counting_hash(hash, key)
 hash[key] = 1
 {total: 5}[age: 1]
-{'hello'=>1}
+{'count'=>6}
 end
 #   # 1) updating data in a hash update_counting_hash if key is not present, returns a hash with the provided key assigned to the value of 1
 #     Failure/Error: expect(update_counting_hash({total: 5},:age)).to eq({total:5, age: 1})
