@@ -26,6 +26,7 @@ end
 def update_counting_hash(hash, key)
 hash[key] = 1
 {total: 5}[age: 1]
+{count: 6})
 #{"hello"=>1}
 #{"amount"=>50, "number"=>2}
 end
