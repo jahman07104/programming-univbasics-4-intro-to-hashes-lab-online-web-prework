@@ -28,4 +28,4 @@ hash[key] = 1
 {total: 5}[age: 1]
 {"hello"=>1}
 
-end
+end{"amount"=>50, "number"=>2}
